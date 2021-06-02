@@ -45,7 +45,7 @@ function init() {
 
 function createBall() {
 	// Do not change the color itself, change the material and use the ambient and diffuse components.
-	var material = new THREE.MeshLambertMaterial( { color: 0x80FC66, shading: THREE.FlatShading } );
+	var material = new THREE.MeshLambertMaterial( { color: 0x80FC66} );
 	var newRed = material.color.r * 0.4;
 	var newGreen = material.color.g * 0.4;
 	var newBlue = material.color.b * 0.4;
