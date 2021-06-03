@@ -80,8 +80,7 @@ function fillScene() {
 	sphere.position.y = 18;	// move the hand above the other hand
 
 	// YOUR CODE HERE:
-	//sphere.scale = new THREE.Vector3(6, 0.4, 0.4);
-	sphere.scale.x = 3.0; // diameter of sphere = 20, therefore 60/20=3
+	sphere.scale.x = 3.0; // diameter of sphere = 20, therefore 60/20=3 etc.
 	sphere.scale.y = 0.2;
 	sphere.scale.z = 0.2;
 	sphere.rotation.y = 30 * Math.PI/180;
