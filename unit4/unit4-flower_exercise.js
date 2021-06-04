@@ -45,10 +45,10 @@ function fillScene() {
 	{
 		var cylinder = new THREE.Mesh( cylGeom, petalMaterial );
 		cylinder.position.z = petalLength/2;
-	
+		cylinder.rotation.x = 90 * Math.PI/180;
+
 		var petal = new THREE.Object3D();
 		petal.add( cylinder );
-		cylinder.rotation.x = 90 * Math.PI/180;
 		petal.rotation.y = (i/24)*360* Math.PI/180;
 		petal.position.y = flowerHeight;
 		flower.add( petal );
