@@ -21,6 +21,9 @@ function fillScene() {
 	// direction to it is -200, 200, -400
 	// full white color,
 	// intensity 1.5
+	var dirLight = new THREE.DirectionalLight(0xFFFFFF, 1.5);
+	dirLight.position = new THREE.Vector3(-200, 200, -400);
+	scene.add(dirLight);
 
 	// MATERIALS
 	var headMaterial = new THREE.MeshLambertMaterial( );
